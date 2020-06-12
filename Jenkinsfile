@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                sh 'sh paper'
+                sh 'sh paper j'
             }
             post {
                 success {
